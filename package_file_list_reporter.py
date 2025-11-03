@@ -11,6 +11,6 @@ def save_all_files(base_path, output_file):
 
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    output_path = os.path.join(current_dir, "packageFiles.txt")     # packageFiles.txt로 저장
+    output_path = os.path.join(current_dir, "package_file_list_reporter_output.txt")     # package_file_list_output.txt로 저장
     save_all_files(current_dir, output_path)
     print(f"✅ 파일 목록이 '{output_path}' 에 저장되었습니다.")

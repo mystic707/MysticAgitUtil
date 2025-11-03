@@ -25,7 +25,7 @@ def compare_file_lists(file_a, file_b, report_file):
 
 if __name__ == "__main__":
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    fileA = os.path.join(current_dir, "packageFilesA.txt")  # 파일명은 packageFilesA 로 작성 필요
-    fileB = os.path.join(current_dir, "packageFilesB.txt")  # 파일명은 packageFilesB 로 작성 필요
-    reportFile = os.path.join(current_dir, "report.txt")
+    fileA = os.path.join(current_dir, "package_file_list_reporter_output_A.txt")  # 파일명은 package_file_list_reporter_output_A 로 작성 필요
+    fileB = os.path.join(current_dir, "package_file_list_reporter_output_B.txt")  # 파일명은 package_file_list_reporter_output_B 로 작성 필요
+    reportFile = os.path.join(current_dir, "package_file_list_comparator_output.txt")
     compare_file_lists(fileA, fileB, reportFile)
